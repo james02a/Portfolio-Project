@@ -1,0 +1,139 @@
+:root{
+    
+}
+.tilting-card-wrapper{
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+grid-template-columns: repeat(3 , 1fr);
+ 
+  
+   /* padding: 2rem;*/
+    position: relative;
+
+}
+
+
+.tilting-card-content{
+    --perspective:1400px;
+    --rotateX:0;
+    --rotateY:0;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+
+
+    display: grid;
+    place-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    gap: 20px;
+    width: 400px; /* Set your desired width */
+    height: 500px; /* Set your desired height */
+    aspect-ratio: 1/2;
+    background-image: url(./assest/n.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+      transform: 
+    perspective(var(--perspective))
+    rotateX(var(--rotateX))
+    rotateY(var(--rotateY));
+    transition: transform 350ms ease;
+    border-radius: 10px;
+}
+.mouse-position-tracker{
+    position: absolute;
+  z-index: 2;
+  
+    inset: 0;
+
+}
+.mouse-position-tracker:nth-child(1):hover ~ .tilting-card-content{
+ --rotateX:15deg;
+ --rotateY:-15deg;
+
+}
+.mouse-position-tracker:nth-child(2):hover ~ .tilting-card-content{
+    --rotateX:15deg;
+   
+   
+   }
+   .mouse-position-tracker:nth-child(3):hover ~ .tilting-card-content{
+    --rotateX:15deg;
+    --rotateY:15deg;
+   
+    
+   }
+   .mouse-position-tracker:nth-child(1):hover ~ .tilting-card-content{
+    --rotateX:15deg;
+    --rotateY:-15deg;
+   
+   }
+   .mouse-position-tracker:nth-child(4):hover ~ .tilting-card-content{
+   
+    --rotateY:-15deg;
+   
+   }
+   
+   
+   .mouse-position-tracker:nth-child(6):hover ~ .tilting-card-content{
+    --rotateY:15deg;
+   
+   
+   }
+   
+
+   .mouse-position-tracker:nth-child(7):hover ~ .tilting-card-content{
+    --rotateX:-15deg;
+    --rotateY:-15deg;
+   
+   }
+   
+   .mouse-position-tracker:nth-child(8):hover ~ .tilting-card-content{
+    --rotateX:-15deg;
+   
+   
+   }
+   
+   .mouse-position-tracker:nth-child(9):hover ~ .tilting-card-content{
+    --rotateX:-15deg;
+    --rotateY:15deg;
+   
+   }
+   
+   
+
+
+/* 1rd 4th 7th*/
+.mouse-position-tracker:nth-of-type(3n-2){
+   
+    grid-column: 1/2;
+}
+
+/* 2rd 5th 8th*/
+.mouse-position-tracker:nth-of-type(3n -1){
+
+    grid-column: 2/3;
+}
+/* 3rd 6th 9th*/
+.mouse-position-tracker:nth-of-type(3n){
+  
+    grid-column: 3/4;
+}
+
+/* 4d 5h 6*/
+.mouse-position-tracker:nth-child(n + 1):nth-child(-n + 3){
+
+    grid-row: 1 / 2;
+}
+
+/* 4d 5h 6*/
+.mouse-position-tracker:nth-child(n + 4):nth-child(-n + 6){
+   
+    grid-row: 2/3;
+}
+/* 4d 5h 6*/
+.mouse-position-tracker:nth-child(n + 7):nth-child(-n + 9){
+    
+    grid-row: 3/4;
+}

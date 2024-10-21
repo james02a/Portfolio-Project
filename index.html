@@ -1,0 +1,607 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="projectStyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="icon" href="./assest/4983453.png" type="image/png">'
+<link rel="stylesheet" href="./hover.css">
+<link rel="stylesheet" href="./hoverbutton.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+<title>James Portfolio</title>
+</head>
+<body>
+
+    
+    <div id="preloader">
+        <svg
+      class="container1" 
+      x="0px" 
+      y="0px"
+      viewBox="0 0 50 31.25"
+      height="100"
+      width="100"
+      preserveAspectRatio='xMidYMid meet'
+    >
+      <path 
+        class="track"
+        stroke-width="4" 
+        fill="none" 
+        pathlength="100"
+        d="M0.625 21.5 h10.25 l3.75 -5.875 l7.375 15 l9.75 -30 l7.375 20.875 v0 h10.25"
+      />
+      <path 
+        class="car"
+        stroke-width="4" 
+        fill="none" 
+        pathlength="100"
+        d="M0.625 21.5 h10.25 l3.75 -5.875 l7.375 15 l9.75 -30 l7.375 20.875 v0 h10.25"
+      />
+    </svg>
+
+    </div>
+
+    <div class="dark-mode">
+        <label class="switch" >
+            <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+            <span class="moon" id="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+            <input type="checkbox" class="input">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="hamburger-scroll container-ham">
+
+        
+    <nav id="hamburger-nav" >
+        <!-- THIS IS FOR  TOOGLE -->
+
+
+
+<!-- THIS IS FOR  TOOGLE -->
+        <div class="hamburger-menu">
+            
+            <div class="hamburger-icon" onclick="toggleMenu()" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#Hero" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#About-me" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Resume" onclick="toggleMenu()">Resume</a></li>
+                <li><a href="#Work" onclick="toggleMenu()">Work</a></li>
+                <li><a href="#Hello" onclick="toggleMenu()">Say Hello</a></li>
+            </div>
+        </div>
+    </nav>
+</div>
+    <nav id="Navigation " class="nav outline"> 
+
+<!-- THIS IS FOR  TOOGLE -->
+
+
+
+<!-- THIS IS FOR  TOOGLE -->
+        <div class="nav-container ">
+            <a href="#Hero" class="nav-link outline" > Home</a>
+            <a href="#About-me" class="nav-link outline" > About</a>
+            <a href="#Resume" class="nav-link outline" > Resume</a>
+            <a href="#Work" class="nav-link outline"> Work</a>
+            <a href="#Hello" class="nav-link outline"> Say Hello</a> 
+        </div>
+             
+    </nav>
+
+   
+    <section  class="Hero-section  " id="Hero" >
+        <div data-aos="fade-down"  data-aos-duration="2000" class="image-hero">
+            <img class=" image1 slide-fwd-center" src="./assest/Coding-bro.svg" alt="">
+
+            
+        </div>
+        <div   class="description outline" >
+            <h3 data-aos="fade-right" data-aos-duration="2000">
+                Hi I'm
+            </h3>
+            <h1  data-value="JAMES MELVIN PANTON" data-aos="fade-left"  data-aos-duration="2000">
+               JAMES MELVIN PANTON
+            </h1>
+           
+            <h2 data-aos="fade-right"  data-aos-duration="2000" class="h2-hero ">
+                 A <span class="auto-typed"></span>
+            </h2>
+
+        </div>
+      <!-- THIS IS FOR  icon -->
+
+        <div   data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000" class="card outline">
+            <a  href="https://www.instagram.com/hi_zenko/"  class="socialContainer containerOne outline"  target="_blank" >
+              <i class="fa-brands fa-instagram socialIcon " ></i>
+            </a>
+            <a href="https://x.com/MelvinPant47538" class="socialContainer containerTwo outline" target="_blank">
+              <i class="fa-brands fa-twitter socialIcon"></i>
+            </a>
+            <a href="https://discord.gg/7G3xPbtr" class="socialContainer containerThree outline" target="_blank">
+              <i class="fa-brands fa-discord socialIcon"></i>
+            </a>
+            <a href="https://wa.me/639514607815" class="socialContainer containerFour outline" target="_blank">
+              <i class="fa-brands fa-whatsapp socialIcon"></i>
+            </a>
+          </div>
+
+
+<!-- THIS IS FOR  icon -->
+
+
+
+
+
+
+
+
+
+        <div class="bg"></div>
+
+        <div class="star-field">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+
+    </section>
+
+
+
+   
+
+
+
+    <section class="about-me reveal outline " id="About-me">
+       
+        <h3  data-aos="zoom-in-up"  data-aos-duration="1000" class="outline about-me-h3">
+            About Me
+        </h3>
+    
+        <div   class="about-me-content scroll-reveal">
+            <div class="tilting-card-wrapper">
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker"></div>
+                <div class="mouse-position-tracker">
+                    <div class="tooltip-container">
+                        <span class="tooltip-1"> CREATIVE.</span>
+                        <span class="tooltip-2">ADAPTABLE</span>
+                        <span class="tooltip-3">DEDICATED.</span>
+                        <span>HIRE ME</span>
+                      </div> 
+                </div>
+                <div class="mouse-position-tracker"></div>
+                   <div class="tilting-card-content">
+                 <h1>
+            
+              </h1>
+              <br>
+                 <p>
+          
+                 </p>
+             </div>
+             </div>
+           <!-- <div class="about-image">
+                <img  data-aos="fade-right" data-aos-duration="2000" class="about-image outline" src="./assest/459317512_1652584042136415_2547522953721234423_n.jpg" alt="">
+            </div> -->
+            <!---
+            <p class="p-about-me">
+                
+           
+
+                <span>I am Passionate about growth and learning, I embrace challenges as opportunities, staying ahead of technological innovations by exploring industry trends, all to fuel my personal and professional development. <br> My passion for technology and design has inspired me to explore this dynamic field where I am always learning and developing. Although I am still in the early stages of my career, I have a solid foundation in HTML, CSS, and JavaScript, and I am committed to honing my skills to deliver engaging and user-friendly web experiences. <br>Beyond code, I find it fascinating how site design combines creativity and technology. No matter how big or little the project, it's always an opportunity for me to learn something new and challenge myself. I'm committed to keeping up with the most recent developments in web design so that I can build websites that are both aesthetically pleasing and easy to use. As I develop further, I'm eager to work with people that are as passionate about making distinctive, user-friendly web designs as I am. </span>        
+           
+            </p>
+        --> 
+        <div class="contact-about">
+            <div  data-aos="fade-left"  data-aos-duration="2000" class="contact-details outline">
+                <h3  class="contact-h3 outline ">
+                    Contact Details
+                </h3>
+                <p> James Melvin Panton </p>
+                <p> Valenzuela City, Philippines </p>
+                <p> +9514607815 </p>
+                <p> jamesmelvinp@gmail.com </p>
+            </div>
+                <div  data-aos="fade-left"  data-aos-duration="2000" class="button-contact">
+            <a href="./assest/RESUME upodate.pdf" download>
+                <button class="outline resume-download cursor scale-up-center">
+                    <img src="./assest/icon4.png" alt="">  Download Resume
+                  </button>
+
+            </a>
+                 
+            </div>
+        </div>
+    
+        
+      
+      
+           
+        
+       
+
+
+        </div>
+
+        
+
+    </section> 
+    <!--
+    <div  class="scroller-section wrapper ">
+  
+        <div data-aos="fade-left"  data-aos-duration="1000" class="scroller">
+          <ul class="tag-list scroller__inner wrapper ">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>FIGMA</li>
+            <li> ILLUSTRATOR</li>
+            <li> PHTOSHOP</li>
+            <li> SERVICE</li>
+            
+            
+          </ul>
+        </div>
+        <div data-aos="fade-right"  data-aos-duration="1000" class="scroller" data-direction="right">
+          <ul class="tag-list scroller__inner">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>FIGMA</li>
+            <li> ILLUSTRATOR</li>
+            <li> PHTOSHOP</li>
+            <li> SERVICE</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>FIGMA</li>
+            <li> ILLUSTRATOR</li>
+            <li> PHTOSHOP</li>
+            <li> SERVICE</li>
+            
+          </ul>
+        </div>
+          
+    </div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section class="resume-section reveal" id="Resume">
+    <h3 data-aos="zoom-in-up"  data-aos-duration="2000" class="career-h3 outline"> Career</h3>
+    <div class="timeline outline">
+       
+        <div   class="container-career   left-container">
+            <img class="outline" src="./assest/jerskie.jpg" alt="">
+            <div data-aos="fade-right"  data-aos-duration="2000" class="text-box-career">
+                    Jerskie Graphics
+                </H2>
+                <small>2022-2023</small>
+                <p>
+                    In my role as a graphic designer for our business, I produce eye-catching designs that both meet and surpass customer requirements. In addition to my creative work, I oversee projects and help the team to guarantee flawless operations and outstanding customer pleasure. In addition, I put a lot of effort into developing trusting and dependable connections with my clientele.
+
+
+                </p>
+                <span class="left-container-arrow">
+
+                </span>
+            </div>
+        </div>
+
+        <div  class="container-career right-container ">
+            <img class="outline" src="./assest/heart.jpg" alt="">
+            <div  data-aos="fade-left"  data-aos-duration="2000" class="text-box-career">
+                <H2 class="h2-career">
+                    Heart & Skills                </H2>
+                <small>2022-2023</small>
+                <p>
+                    As a knowledgeable developer with a focus on WordPress and Webflow, I contribute to this firm by using my knowledge to build strong, eye-catching websites that go above and beyond for clients. As a developer, I utilize Figma and Canva to create beautiful websites that combine creativity and functionality, giving our clients an amazing user experience. Furthermore, I have worked with Shopify to create e-commerce websites, and I am quite knowledgeable with the platform.
+                </p>
+                <span class="right-container-arrow">
+
+                </span>
+            </div>
+        </div>
+
+        <div class="container-career left-container outline">
+            <img class="outline" src="./assest/aaa.webp" alt="">
+            <div   data-aos="fade-right"  data-aos-duration="2000" class="text-box-career">
+                <H2 class="h2-career">
+                 Concentrix
+                </H2>
+                <small>2023-2024</small>
+                <p>
+                    By answering questions, handling grievances, and processing orders in addition to diagnosing and fixing problems pertaining to goods or services, I delivered outstanding customer service. I often surpassed client expectations in both written and spoken contacts by showcasing my exceptional communication abilities, earning praise and upholding high satisfaction ratings.                </p>
+                <span class="left-container-arrow">
+
+                </span>
+            </div>
+        </div>
+    </div>
+
+        
+   </section>   
+
+
+
+   
+
+   <section class="work-container reveal outline" id="Work">
+    <h3  data-aos="zoom-in"  data-aos-duration="2000" class="outline few">Few Of My Latest Creation</h3>
+    <div>
+    <div  class="photo-gallery outline">
+      
+            <div data-aos="fade-right"  data-aos-duration="2500" class="photo ">
+                <img  src="./assest/BIRTH2.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Bootstrap Website</h2>
+                    <h3 class="card-subtitle">Bootstrap</h3>
+                    <p class="card-information">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquam quia fugiat ipsa quis odit reprehenderit, animi cum ipsam corporis. Enim ipsum quae fugiat molestiae quas eos vero debitis eligendi!
+                    </p>
+                    <button class="cursor resume-download1 talk card-button scale-up-center">
+                        View 
+                    </button>
+                </div>
+            </div>
+            
+            <div data-aos="fade-right"  data-aos-duration="2500" class="photo">
+                <img src="./assest/BIRTH5.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Restaurant Website</h2>
+                    <h3 class="card-subtitle">Html Css & JAvascript</h3>
+                    <p class="card-information">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquam quia fugiat ipsa quis odit reprehenderit, animi cum ipsam corporis. Enim ipsum quae fugiat molestiae quas eos vero debitis eligendi!
+                    </p>
+                    <button class="cursor resume-download1 talk card-button scale-up-center">
+                        View 
+                    </button>
+                </div>
+            </div>
+           
+       
+      
+            <div class="photo" data-aos="fade-left"  data-aos-duration="2500"  >
+                <img src="./assest/BIRTH1.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Home page</h2>
+                    <h3 class="card-subtitle">Wordpress</h3>
+                    <p class="card-information">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquam quia fugiat ipsa quis odit reprehenderit, animi cum ipsam corporis. Enim ipsum quae fugiat molestiae quas eos vero debitis eligendi!
+                    </p>
+                    <button class="scale-up-center resume-download1 talk card-button">
+                        View 
+                    </button>
+                </div>
+            </div>
+            <div data-aos="fade-left"  data-aos-duration="2500" class="photo">
+                <img src="./assest/BIRTH.jpg" alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Web Design</h2>
+                    <h3 class="card-subtitle">figma</h3>
+                    <p class="card-information">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquam quia fugiat ipsa quis odit reprehenderit, animi cum ipsam corporis. Enim ipsum quae fugiat molestiae quas eos vero debitis eligendi!
+                    </p>
+                    <button class="cursor resume-download1 talk card-button scale-up-center">
+                        View 
+                    </button>
+                </div>
+            </div>
+           
+        
+    
+            
+        </div>
+      
+     
+      </div>
+    
+</div>
+
+   </section>
+
+   <section class="contact-section reveal outline" id="Hello">
+      <h3 data-aos="zoom-in-up"  data-aos-duration="2500" class="outline contact-h32">Say Hello</h3>
+    <div class="contact-hello">
+      
+        <p data-aos="fade-right"  data-aos-duration="2500" class="outline contactp">
+            Have a new project in mind? Let's collaborate and build something awesome. Let's turn that idea to an even greater product :
+        </p>
+        <div data-aos="fade-left"  data-aos-duration="2500" class="info">
+            <p class="gray outline"> Email </p>
+                    <p class="grap outline"> jamesmelvinp@gmail.com </p>
+                    <p class="gray outline"> Phone </p>
+                    <p class="grap outline"> +9514607815 </p>
+                    <div class="button-contact ">
+                      <a href="mailto:jamesmelvinp@gmail.com">
+                         <button  class="outline cursor resume-download1 talk btn-talk scale-up-center">
+                            Let's talk
+                        </button>
+                        
+                      </a> 
+                    </div>
+
+    </div>
+   
+    </div>
+
+
+
+   </section>
+   <footer class="footer" data-aos="fade-up"  data-aos-duration="2500"  data-aos-anchor-placement="center-bottom" >
+    <div class="footer-p outline">
+        <p>
+            © Copyright Portfolio 2024 Design by James P.
+        </p>
+    </div>
+    <div class="icon outline">
+        <img src="./assest/arrow.png" alt="">
+       <a href="https://web.facebook.com/profile.php?id=100004240396950" target="_blank" ><img src="./assest/fb.png" alt=""></a> 
+        <a href="https://www.instagram.com/hi_zenko/" target="blank">
+            <img src="./assest/in.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/james-melvin-panton-6798a426b/" target="blank">
+              <img src="./assest/link.png" alt="">
+        </a>
+      
+    </div>
+    
+
+   </footer>
+   
+
+
+
+
+
+    
+    <script src="./script.js">
+
+
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Initialize AOS (if using AOS library) -->
+
+<!-- Initialize Typed.js -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var typed = new Typed(".auto-typed", {
+      strings: ["web Developer ", "Web Designer"," Graphic Designer"],
+      typeSpeed: 120,
+      backSpeed: 120,
+      loop: true
+    });
+  });
+</script>
+
+<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
+<script>
+
+
+
+
+
+
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+document.querySelector("h1").onmouseover = event => {
+    let iterations = 0;
+    const targetText = event.target.dataset.value;
+
+    // Initialize the text with random letters of the same length as the target text
+    event.target.innerText = targetText.split('')
+        .map(() => letters[Math.floor(Math.random() * letters.length)])
+        .join('');
+
+    const interval = setInterval(() => {
+        event.target.innerText = targetText.split('')
+            .map((letter, index) => {
+                if (index < iterations) {
+                    return targetText[index];
+                }
+                return letters[Math.floor(Math.random() * letters.length)];
+            })
+            .join('');
+
+        if (iterations >= targetText.length) {
+            clearInterval(interval);
+            event.target.innerText = targetText; // Ensure the final text is correct
+        }
+
+        iterations += 1;
+    }, 150);
+};
+
+
+</script>
+
+
+
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      const revealElements = document.querySelectorAll('.scroll-reveal');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            console.log('Element is in view!'); // Debugging log
+            entry.target.classList.add('reveal-active');
+          } else {
+            console.log('Element is out of view.'); // Debugging log
+          }
+        });
+      }, {
+        threshold: .1 // Trigger animation when 50% of the element is visible
+      });
+
+      revealElements.forEach(element => {
+        observer.observe(element);
+      });
+    });
+  </script>  
+
+
+
+  <script>
+    var loader = document.getElementById("preloader")
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+  </script>
+
+</body>
+</html>

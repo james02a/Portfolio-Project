@@ -1,0 +1,184 @@
+
+
+/* From Uiverse.io by neerajbaniwal */ 
+/*
+.tooltip-container {
+    height: 70px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: #fff;
+    background-image: linear-gradient(
+      to left bottom,
+      #f2f5f8,
+      #ecf1f2,
+      #e7eceb,
+      #e3e7e4,
+      #e1e2de
+    );
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    position: relative;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .tooltip-container::before {
+    position: absolute;
+    content: "";
+    top: -50%;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    border-radius: 5px;
+    background-color: fff;
+    background-image: linear-gradient(
+      to left bottom,
+      #1288ff,
+      #e4eaec,
+      #d8dfde,
+      #cdd3cf,
+      #c5c7c1
+    );
+    width: 100%;
+    height: 50%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(-150deg) translateY(-110%);
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  
+  .tooltip-container .text {
+    color: rgb(32, 30, 30);
+    font-weight: bold;
+    font-size: 14px;
+
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -20px;
+    opacity: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.05) 1px, white 1px),
+      linear-gradient(rgba(0, 0, 0, 0.05) 1px, white 1px),
+      linear-gradient(-90deg, rgba(0, 0, 0, 0.04) 1px, white 1px),
+      linear-gradient(rgba(0, 0, 0, 0.04) 1px, white 1px),
+      linear-gradient(white 3px, #f2f2f2 3px, #f2f2f2 78px, white 78px),
+      linear-gradient(-90deg, #aaa 1px, white 1px),
+      linear-gradient(-90deg, white 3px, #f2f2f2 3px, #f2f2f2 78px, white 78px),
+      linear-gradient(#aaa 1px, white 1px), #f2f2f2;
+    background-size: 4px 4px, 4px 4px, 80px 80px, 80px 80px, 80px 80px, 80px 80px,
+      80px 80px, 80px 80px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+  
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.2s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 10px salmon;
+    z-index:1000 ;
+  }
+  .tooltip-container:hover {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .tooltip-container:hover::before {
+    transform: rotateY(0);
+    background-image: none;
+    background-color: white;
+  }
+  
+  .tooltip-container:hover .tooltip {
+    top: 90px;
+    opacity: 1;
+    transition-duration: 0.3s;
+  }
+  */
+  /* From Uiverse.io by akshat-patel28 */ 
+.tooltip-container {
+    position: relative;
+    
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    text-align: center;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+   color: #ffffff;
+   z-index: 1000;
+ 
+    
+  }
+  
+  .tooltip-1,
+  .tooltip-2,
+  .tooltip-3 {
+    position: absolute;
+    transform: translateX(-50%);
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    border-radius: 8px 8px 8px 8px;
+  
+   /* box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(10, 10, 17, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */ 
+    min-width: 180px;
+    padding: 14px;
+ background-color: #ffffff;
+    font-size: 14px;
+    
+  }
+  .tooltip-1 {
+    top: 100%;
+    left: 50%;
+    width: 200px;
+  }
+  .tooltip-2 {
+    left: 100%;
+  }
+  
+  .tooltip-3 {
+    left: 0;
+  }
+  .tooltip-container:hover .tooltip-1 {
+    top: 150%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .tooltip-container:hover .tooltip-2 {
+    left: -50%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .tooltip-container:hover .tooltip-3 {
+    left: 150%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /**card*/
+  /* From Uiverse.io by Pravins01 */ 
+
+
+  
