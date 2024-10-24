@@ -93,6 +93,20 @@ html, body {
     z-index: -1;
 }
 
+[data-theme="dark"] #dots1 {
+    display: none;
+}
+
+[data-theme="light"] .Hero-section #dots1{
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events:none ;
+
+}
+
 
 .star-field .layer {
     position: absolute;
@@ -216,6 +230,8 @@ section{
         margin-bottom: 50px;
        padding-bottom: 5%;
        overflow-y: hidden;
+       position: relative;
+       overflow-x: hidden;
        
    
    
