@@ -1316,6 +1316,9 @@ html{
 
 
 @media screen and (max-width: 700px){
+  canvas{
+        display: none;
+    }
     .about-me-content{
         display: flex;
         flex-direction: column;
@@ -1700,6 +1703,10 @@ html{
     }
 }
 @media screen and (max-width: 700px){
+    #dots1{
+        display: none;
+     
+    }
 
 }
 
