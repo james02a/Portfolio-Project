@@ -97,7 +97,7 @@ html, body {
     display: none;
 }
 
-[data-theme="light"] .Hero-section #dots1{
+/*[data-theme="light"] .Hero-section #dots1{
     background-color:transparent;
     position: absolute;
     top: 0;
@@ -105,7 +105,7 @@ html, body {
     height: 100vh;
     pointer-events:none ;
 
-}
+} */
 
 
 .star-field .layer {
