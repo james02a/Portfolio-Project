@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: https://james02a.github.io/Portfolio-Project/sitemap.xml
