@@ -749,6 +749,7 @@ html{
 .card-information{
     font-size: 14px;
     font-weight: normal;
+    margin-top: 1rem;
 }
 
 
@@ -860,7 +861,7 @@ html{
     padding-bottom: 10px;
     font-weight: normal;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: var(--btn-text-color);
     background-color: var(--primary-color);
     border: none;
@@ -913,7 +914,7 @@ html{
 .card-button{
     font-size: 16px;
     font-weight: normal;
-    color: balck;
+    color: black;
     background-color:var(--button-color);
     width: fit-content;
 
@@ -1796,4 +1797,11 @@ html{
   /* .outline{
         outline: solid 1px var(--outline-color);
     } */
+     .spanwork{
+        background-color: var(--after-color);
+       width: fit-content;
+       font-weight: 600;
+       font-size: 1.2rem;
+       padding-inline: 2px;
+     }
 
