@@ -1242,7 +1242,7 @@ html{
     transition: transform 0.3s;
     z-index: 1100;
     background-color: var(--primary-color);
-    height: 70px;
+    height: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
    
@@ -1296,7 +1296,7 @@ html{
     list-style: none;
 }
 .menu-links.open{
-    max-height: 300px;
+    max-height: 500px;
 }
 .hamburger-icon.open span:first-child{
     transform: rotate(45deg) translate(10px, 5px);
